@@ -1,0 +1,111 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.heading {
+  font-family: "Roboto";
+  text-align: center;
+}
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.small-box {
+  background-color: #fbbf24;
+  font-family: "Bree serif";
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  font-size: 12px;
+}
+.medium-box {
+  background-color: #38bdf8;
+  font-family: "Bree serif";
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  font-size: 12px;
+}
+.large-box {
+  background-color: #ec4899;
+  font-family: "Bree serif";
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+  font-size: 12px;
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 64px;
+  }
+  .boxes-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .small-box {
+    background-color: #fbbf24;
+    font-family: "Bree serif";
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    height: 70px;
+    width: 70px;
+    font-size: 12px;
+  }
+  .medium-box {
+    background-color: #38bdf8;
+    font-family: "Bree serif";
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 120px;
+    width: 120px;
+    font-size: 12px;
+  }
+  .large-box {
+    background-color: #ec4899;
+    font-family: "Bree serif";
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 180px;
+    width: 180px;
+    font-size: 12px;
+  }
+}
